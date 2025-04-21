@@ -14,7 +14,7 @@ const Contact = () => {
             const subject = form?.target?.subject?.value;
             const message = form?.target?.message?.value;
 
-            const result = await axios.post("http://localhost:5000/api/send-email", {
+            const result = await axios.post("/api/sendEmail", {
                 from: `${name} <${email}>`,
                 subject: subject,
                 text: message,
