@@ -48,13 +48,16 @@ const Skills = () => {
                         </h3>
 
                         <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-                            {[
+                            {[  
                                 "Express",
                                 "MongoDB",
                                 "MySQL",
                                 "Bootstrap",
                                 "Git & GitHub",
-                                "RESTful APIs",
+                                "RESTful APIs", 
+                                "Postman",
+                                "Burp Suite",
+                                "API Integration ",
                             ].map((skill, index) => (
                                 <div key={index} className="bg-gray-900 p-4 rounded-lg text-center hover:bg-gray-700 transition-colors duration-300">
                                     <span className="text-sm">{skill}</span>

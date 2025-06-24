@@ -18,7 +18,13 @@ const Project = () => {
                         {
                             title: "Footprints - AI",
                             description: "The Footprints application has been tailored for shopping malls and retailers, providing a comprehensive solution for operational efficiency, customer engagement, and targeted marketing. Built on a robust tech stack Node.js, ReactJS, MongoDB, and MySQL it integrates seamlessly with essential modules like Retail Analytics, Digital Signage, Campaign Management, and Sales Tracking. With deep integration into key marketing channels such as Facebook , Instagram  and top email marketing platforms, Footprints enables data-driven, high-impact campaigns while optimizing workflows and enhancing lead generation",
-                            tech: ["React", "Node.js", "CSS", "MongoDB"],
+                            tech: ["React", "Node.js","HBS", "CSS", "MongoDB"],
+                            image: "/api/placeholder/600/400"
+                        },
+                        {
+                            title: "Flamingo – Merchant Dashboard",
+                            description: "Flamingo – Merchant Dashboard is a FinTech analytics platform built with React.js, Node.js, MongoDB, and MySQL, enabling merchants to monitor transactions, user activity, and financial data in real time. Featuring responsive UI, real-time tracking, and secure RESTful APIs, it empowers data-driven decisions and improves operational efficiency.",
+                            tech: ["React", "Node.js", "CSS", "MongoDB", "MySQL"],
                             image: "/api/placeholder/600/400"
                         }
                     ].map((project, index) => (

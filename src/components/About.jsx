@@ -15,8 +15,8 @@ const About = () => {
                 <div className="flex flex-col md:flex-row gap-12 items-center">
                     <div className="md:w-1/2">
                         <p className="text-gray-300 mb-6">
-                            I'm a passionate fullstack web developer with 2.5 years of experience building modern web applications.
-                            I specialize in React, CSS, NodeJs and NestJs that enhance user experience.
+                            I'm a passionate fullstack web developer with 3+ years of experience building modern web applications.
+                            I specialize in React, CSS, NodeJs that enhance user experience.
                         </p>
                         <p className="text-gray-300 mb-6">
                             Skilled in front-end and back-end development, proficient in languages such as HTML, CSS, JavaScript, with expertise in frameworks like React, Node.js. Strong problem-solving abilities, adept at creating responsive and visually appealing web applications while ensuring optimal functionality and user engagement.
@@ -29,7 +29,7 @@ const About = () => {
                             </div>
                             <div className="bg-gray-900 p-4 rounded-lg">
                                 <h3 className="font-bold text-xl mb-2">Experience</h3>
-                                <p className="text-gray-400">2+ Years<br />Fullstack Web Development</p>
+                                <p className="text-gray-400">3+ Years<br />Fullstack Web Development</p>
                             </div>
                         </div>
                     </div>
